@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon"type="image/x-icon" href="cutouticon.png">
+    <link rel="stylesheet" href="pages.css">
+    <title>Warner Bros | Movies</title>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="background.mp4" type="video/mp4">
+      </video>
+ <div class="wrapper">
+    <nav class="nav">
+        <div class="nav-logo">
+            <img class="nav-logo" src="cutouticon.png" alt="logo"  style="width: 80px; height: auto; position: absolute; margin-top: 19px; ">
+        </div>
+        <div class="nav-menu" id="navMenu">
+            <ul>
+                <li><a href="index2.html" class="link ">Home</a></li>
+                <li><a href="movies.html" class="link active">Movies</a></li>
+                <li><a href="tvshows.html" class="link">Tv shows</a></li>
+                <li><a href="games&apps.html" class="link">Games & Apps</a></li>
+                <li><a href="collections.html" class="link">Collections</a></li>
+                <li><a href="aboutus.html" class="link">About Us</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+            <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+        </div>
+    </nav>
+</body>
+</html>
