@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="cutouticon.png">
+    <link rel="stylesheet" href="index2.css">
+    <title>Warner Bros | TV Shows</title>
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="background.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="wrapper1">
+        <nav class="nav">
+            <div class="nav-logo">
+                <img class="nav-logo" src="cutouticon.png" alt="logo" style="width: 80px; height: auto; position: absolute; margin-top: 19px;">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="index22.html" class="link">Home</a></li>
+                    <li><a href="movies.html" class="link">Movies</a></li>
+                    <li><a href="tvshows.html" class="link active">TV Shows</a></li>
+                    <li><a href="#" class="link">Games & Apps</a></li>
+                    <li><a href="#" class="link">Collections</a></li>
+                    <li><a href="#" class="link">About Us</a></li>
+                    <li><a href="#" class="link">Feedback</a></li>
+                </ul>
+            </div>
+           
+            <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content" style="background: url('sandman.jpg');">
+                <p class="featured-desc">Half-human, half-Atlantean Arthur Curry must take his rightful place as the king of Atlantis and prevent a large-scale conflict from breaking out between the underwater kingdom and the surface world.</p>
+                <button class="featured-button">WATCH NOW!</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">FAVOURITES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="abbott.jpg" alt="">
+                            <span class="movie-list-item-title">Abbott Elementary</span>
+                            <p class="movie-list-item-desc">A group of dedicated, passionate teachers -- and a slightly tone-deaf principal -- find themselves thrown together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. </p>
+                            <button class="movie-list-item-button">More info</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="tbbt.jpg" alt="">
+                            <span class="movie-list-item-title">TBBT</span>
+                            <p class="movie-list-item-desc">The Big Bang Theory is an American television sitcom created by Chuck Lorre and Bill Prady, both of whom served as executive producers on the series, along with Steven Molaro. All three also served as head writers.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img" src="tvshow4.jpg" alt="">
+                                <span class="movie-list-item-title">Superman and Lois</span>
+                                <p class="movie-list-item-desc">Married with two sons, Jonathan and Jordan, Clark Kent and Lois Lane head back to Smallville to reunite with their closest friends. Things take a turn when The Stranger wreaks havoc in their lives.</p>
+                                <button class="movie-list-item-button">Watch</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img" src="tvshow8.jpg" alt="">
+                                <span class="movie-list-item-title">You</span>
+                                <p class="movie-list-item-desc">What would you do for love? For Joe, an intense young man who frequently becomes smitten with beautiful, smart women, this question is put to the test. A charming yet awkward crush becomes something more sinister when love turns into obsession for Joe.</p>
+                                <button onclick="window.location.href='https://www.google.com'" class="movie-list-item-button">Watch</button>
+                            </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="tvshow5.jpg" alt="">
+                            <span class="movie-list-item-title">The Sex Lives of College Girls</span>
+                            <p class="movie-list-item-desc">Four sexually active, 18-year-old girls who are also roommates navigate through life experiences at Essex College in Vermont.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                       
+                    </div>
+                    <i class="bx bx-chevron-right arrow"></i>
+                </div>
+            </div>
+    </div>
+    <script src="index2.js"></script>
+</body>
+</html>
