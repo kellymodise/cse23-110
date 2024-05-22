@@ -67,7 +67,10 @@ video#backgroundVideo {
     border-bottom: 2px solid #fff;
     text-decoration: underline;
 }
-
+  .container {
+    min-height: calc(100vh - 50px);
+    color: white;
+  }
 /* Form styling */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
